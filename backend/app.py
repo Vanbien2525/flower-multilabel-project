@@ -119,9 +119,15 @@ def serve_frontend_static(filename):
     return jsonify({"error": "Không tìm thấy tài nguyên."}), 404
 
 
+# Nạp trước model khi worker khởi động (hỗ trợ Gunicorn trên Cloud Run và chạy trực tiếp)
+try:
+    load_singlelabel_model()
+except Exception as e:
+    print(f"[app] Cảnh báo khởi động: {e}")
+
+
 if __name__ == "__main__":
-    print("Đang nạp model...")
-    load_singlelabel_model()  # nạp model 1 lần khi khởi động server (NFR-05)
-    print("Model đã sẵn sàng. Khởi động server tại http://localhost:5000")
-    print("👉 Mở trình duyệt Chrome và truy cập: http://localhost:5000")
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    port = int(os.environ.get("PORT", 5000))
+    print(f"Model đã sẵn sàng. Khởi động server tại http://localhost:{port}")
+    print(f"👉 Mở trình duyệt và truy cập: http://localhost:{port}")
+    app.run(host="0.0.0.0", port=port, debug=False)

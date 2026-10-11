@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+.antigravityignore
+
+# Virtual Environment
+backend/venv
+venv/
+env/
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets nặng (không cần nạp vào web container)
+data/raw/
+data/composite/
+data/splits/
+data/ood/
+data/processed/
+
+# Notebooks & Báo cáo & Tài liệu
+notebooks/
+reports/
+*.md
+
+# Models không sử dụng trực tiếp trong inference Web
+models/checkpoints/
+models/experiments/
+models/final/flower_multilabel_model.keras
+models/final/flower_singlelabel_model.keras
+models/final/flower_singlelabel_model_nb05.keras
+
+# Scripts local
+run_app.bat
