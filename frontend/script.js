@@ -1,9 +1,9 @@
-// ===== Cấu hình =====
-// Tự động nhận diện URL: nếu truy cập qua Flask (localhost:5000) thì dùng relative URL "",
-// nếu chạy qua Live Server (port 5500) hoặc file:// thì dùng http://localhost:5000
-const API_URL = (window.location.protocol.startsWith("http") && window.location.port === "5000")
+// Tự động nhận diện URL: nếu truy cập qua web (HTTP/HTTPS, dù là localhost hay Cloudflare Tunnel/Domain)
+// thì dùng relative URL "", nếu mở trực tiếp bằng file:// thì fallback về http://localhost:5000
+const API_URL = window.location.protocol.startsWith("http")
   ? ""
   : "http://localhost:5000";
+
 
 // Tên hiển thị cho 5 trường chăm sóc (thứ tự hiển thị)
 const CARE_LABELS = {
