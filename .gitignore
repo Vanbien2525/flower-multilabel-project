@@ -1,0 +1,87 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*/venv/
+*/.venv/
+backend/venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Model Weights & Large Binary Checkpoints
+# ==========================================
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.tflite
+models/checkpoints/
+models/checkpoints_singlelabel/
+models/final/*.keras
+models/final/*.h5
+models/ood/*.npy
+models/ood/*.npz
+models/ood/*.pkl
+
+# ==========================================
+# Image Datasets
+# ==========================================
+data/raw/
+data/composite/images/
+data/augmented/
+data/splits/train/
+data/splits/val/
+data/splits/test/
+data/ood/non_flower/
+data/ood/scenes/
+data/ood/bg_crops/
+
+# Image file formats
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.gif
+
+# Ngoại lệ: Giữ lại ảnh báo cáo và sơ đồ tài liệu
+!reports/**/*.png
+!reports/**/*.jpg
+!docs/**/*.png
+!docs/**/*.jpg
+!frontend/**/*.png
+!frontend/**/*.svg
+!frontend/**/*.ico
+
+# ==========================================
+# Backend Uploads & Temp Files
+# ==========================================
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.log

@@ -1,0 +1,518 @@
+path,cls,source,ood_type,split
+/content/nonflower_src/dtd/dtd/images/banded/banded_0016.jpg,banded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/banded/banded_0030.jpg,banded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/banded/banded_0021.jpg,banded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/banded/banded_0069.jpg,banded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/banded/banded_0093.jpg,banded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/blotchy/blotchy_0025.jpg,blotchy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/blotchy/blotchy_0033.jpg,blotchy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/blotchy/blotchy_0027.jpg,blotchy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/blotchy/blotchy_0064.jpg,blotchy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/blotchy/blotchy_0085.jpg,blotchy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/braided/braided_0061.jpg,braided,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/braided/braided_0076.jpg,braided,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/braided/braided_0067.jpg,braided,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/braided/braided_0123.jpg,braided,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/braided/braided_0142.jpg,braided,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/bubbly/bubbly_0052.jpg,bubbly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bubbly/bubbly_0061.jpg,bubbly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bubbly/bubbly_0054.jpg,bubbly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bubbly/bubbly_0097.jpg,bubbly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bubbly/bubbly_0118.jpg,bubbly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bumpy/bumpy_0077.jpg,bumpy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bumpy/bumpy_0101.jpg,bumpy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bumpy/bumpy_0080.jpg,bumpy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bumpy/bumpy_0129.jpg,bumpy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/bumpy/bumpy_0148.jpg,bumpy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/chequered/chequered_0052.jpg,chequered,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/chequered/chequered_0066.jpg,chequered,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/chequered/chequered_0054.jpg,chequered,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/chequered/chequered_0121.jpg,chequered,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/chequered/chequered_0155.jpg,chequered,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/cobwebbed/cobwebbed_0051.jpg,cobwebbed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/cobwebbed/cobwebbed_0058.jpg,cobwebbed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/cobwebbed/cobwebbed_0053.jpg,cobwebbed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/cobwebbed/cobwebbed_0087.jpg,cobwebbed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/cobwebbed/cobwebbed_0106.jpg,cobwebbed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/cracked/cracked_0056.jpg,cracked,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/cracked/cracked_0063.jpg,cracked,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/cracked/cracked_0058.jpg,cracked,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/cracked/cracked_0092.jpg,cracked,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/cracked/cracked_0112.jpg,cracked,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/crosshatched/crosshatched_0048.jpg,crosshatched,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crosshatched/crosshatched_0055.jpg,crosshatched,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crosshatched/crosshatched_0050.jpg,crosshatched,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crosshatched/crosshatched_0098.jpg,crosshatched,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crosshatched/crosshatched_0117.jpg,crosshatched,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crystalline/crystalline_0111.jpg,crystalline,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crystalline/crystalline_0118.jpg,crystalline,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crystalline/crystalline_0113.jpg,crystalline,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crystalline/crystalline_0146.jpg,crystalline,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/crystalline/crystalline_0165.jpg,crystalline,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/dotted/dotted_0073.jpg,dotted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/dotted/dotted_0094.jpg,dotted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/dotted/dotted_0078.jpg,dotted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/dotted/dotted_0126.jpg,dotted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/dotted/dotted_0146.jpg,dotted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/fibrous/fibrous_0107.jpg,fibrous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/fibrous/fibrous_0114.jpg,fibrous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/fibrous/fibrous_0109.jpg,fibrous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/fibrous/fibrous_0142.jpg,fibrous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/fibrous/fibrous_0161.jpg,fibrous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/flecked/flecked_0053.jpg,flecked,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/flecked/flecked_0061.jpg,flecked,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/flecked/flecked_0055.jpg,flecked,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/flecked/flecked_0094.jpg,flecked,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/flecked/flecked_0114.jpg,flecked,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/freckled/freckled_0059.jpg,freckled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/freckled/freckled_0067.jpg,freckled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/freckled/freckled_0061.jpg,freckled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/freckled/freckled_0104.jpg,freckled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/freckled/freckled_0123.jpg,freckled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/frilly/frilly_0011.jpg,frilly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/frilly/frilly_0018.jpg,frilly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/frilly/frilly_0013.jpg,frilly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/frilly/frilly_0047.jpg,frilly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/frilly/frilly_0066.jpg,frilly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/gauzy/gauzy_0090.jpg,gauzy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/gauzy/gauzy_0100.jpg,gauzy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/gauzy/gauzy_0094.jpg,gauzy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/gauzy/gauzy_0129.jpg,gauzy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/gauzy/gauzy_0148.jpg,gauzy,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grid/grid_0015.jpg,grid,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grid/grid_0025.jpg,grid,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grid/grid_0019.jpg,grid,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grid/grid_0058.jpg,grid,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grid/grid_0079.jpg,grid,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grooved/grooved_0055.jpg,grooved,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grooved/grooved_0062.jpg,grooved,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grooved/grooved_0057.jpg,grooved,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grooved/grooved_0095.jpg,grooved,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/grooved/grooved_0114.jpg,grooved,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/honeycombed/honeycombed_0050.jpg,honeycombed,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/honeycombed/honeycombed_0061.jpg,honeycombed,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/honeycombed/honeycombed_0052.jpg,honeycombed,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/honeycombed/honeycombed_0101.jpg,honeycombed,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/honeycombed/honeycombed_0120.jpg,honeycombed,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/interlaced/interlaced_0067.jpg,interlaced,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/interlaced/interlaced_0093.jpg,interlaced,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/interlaced/interlaced_0072.jpg,interlaced,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/interlaced/interlaced_0127.jpg,interlaced,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/interlaced/interlaced_0146.jpg,interlaced,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/knitted/knitted_0091.jpg,knitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/knitted/knitted_0101.jpg,knitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/knitted/knitted_0093.jpg,knitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/knitted/knitted_0129.jpg,knitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/knitted/knitted_0148.jpg,knitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lacelike/lacelike_0011.jpg,lacelike,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lacelike/lacelike_0018.jpg,lacelike,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lacelike/lacelike_0013.jpg,lacelike,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lacelike/lacelike_0046.jpg,lacelike,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lacelike/lacelike_0065.jpg,lacelike,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lined/lined_0036.jpg,lined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lined/lined_0045.jpg,lined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lined/lined_0038.jpg,lined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lined/lined_0097.jpg,lined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/lined/lined_0119.jpg,lined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/marbled/marbled_0082.jpg,marbled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/marbled/marbled_0091.jpg,marbled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/marbled/marbled_0086.jpg,marbled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/marbled/marbled_0119.jpg,marbled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/marbled/marbled_0139.jpg,marbled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/matted/matted_0038.jpg,matted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/matted/matted_0049.jpg,matted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/matted/matted_0040.jpg,matted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/matted/matted_0087.jpg,matted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/matted/matted_0111.jpg,matted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/meshed/meshed_0042.jpg,meshed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/meshed/meshed_0056.jpg,meshed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/meshed/meshed_0048.jpg,meshed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/meshed/meshed_0116.jpg,meshed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/meshed/meshed_0135.jpg,meshed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/paisley/paisley_0011.jpg,paisley,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/paisley/paisley_0019.jpg,paisley,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/paisley/paisley_0014.jpg,paisley,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/paisley/paisley_0050.jpg,paisley,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/paisley/paisley_0073.jpg,paisley,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/perforated/perforated_0025.jpg,perforated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/perforated/perforated_0038.jpg,perforated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/perforated/perforated_0033.jpg,perforated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/perforated/perforated_0089.jpg,perforated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/perforated/perforated_0117.jpg,perforated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/pitted/pitted_0011.jpg,pitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/pitted/pitted_0034.jpg,pitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/pitted/pitted_0025.jpg,pitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/pitted/pitted_0076.jpg,pitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/pitted/pitted_0107.jpg,pitted,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/pleated/pleated_0054.jpg,pleated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/pleated/pleated_0063.jpg,pleated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/pleated/pleated_0058.jpg,pleated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/pleated/pleated_0099.jpg,pleated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/pleated/pleated_0118.jpg,pleated,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/polka-dotted/polka-dotted_0097.jpg,polka-dotted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/polka-dotted/polka-dotted_0106.jpg,polka-dotted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/polka-dotted/polka-dotted_0101.jpg,polka-dotted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/polka-dotted/polka-dotted_0137.jpg,polka-dotted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/polka-dotted/polka-dotted_0162.jpg,polka-dotted,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/porous/porous_0057.jpg,porous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/porous/porous_0066.jpg,porous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/porous/porous_0059.jpg,porous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/porous/porous_0102.jpg,porous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/porous/porous_0121.jpg,porous,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/potholed/potholed_0050.jpg,potholed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/potholed/potholed_0061.jpg,potholed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/potholed/potholed_0054.jpg,potholed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/potholed/potholed_0097.jpg,potholed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/potholed/potholed_0116.jpg,potholed,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/scaly/scaly_0115.jpg,scaly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/scaly/scaly_0122.jpg,scaly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/scaly/scaly_0117.jpg,scaly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/scaly/scaly_0150.jpg,scaly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/scaly/scaly_0169.jpg,scaly,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/smeared/smeared_0029.jpg,smeared,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/smeared/smeared_0036.jpg,smeared,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/smeared/smeared_0031.jpg,smeared,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/smeared/smeared_0070.jpg,smeared,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/smeared/smeared_0093.jpg,smeared,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/spiralled/spiralled_0018.jpg,spiralled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/spiralled/spiralled_0029.jpg,spiralled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/spiralled/spiralled_0020.jpg,spiralled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/spiralled/spiralled_0060.jpg,spiralled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/spiralled/spiralled_0083.jpg,spiralled,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/sprinkled/sprinkled_0020.jpg,sprinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/sprinkled/sprinkled_0036.jpg,sprinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/sprinkled/sprinkled_0023.jpg,sprinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/sprinkled/sprinkled_0065.jpg,sprinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/sprinkled/sprinkled_0088.jpg,sprinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/stained/stained_0031.jpg,stained,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stained/stained_0038.jpg,stained,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stained/stained_0033.jpg,stained,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stained/stained_0066.jpg,stained,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stained/stained_0085.jpg,stained,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stratified/stratified_0053.jpg,stratified,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stratified/stratified_0063.jpg,stratified,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stratified/stratified_0055.jpg,stratified,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stratified/stratified_0100.jpg,stratified,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/stratified/stratified_0119.jpg,stratified,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/striped/striped_0013.jpg,striped,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/striped/striped_0021.jpg,striped,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/striped/striped_0015.jpg,striped,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/striped/striped_0050.jpg,striped,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/striped/striped_0070.jpg,striped,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/studded/studded_0065.jpg,studded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/studded/studded_0101.jpg,studded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/studded/studded_0069.jpg,studded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/studded/studded_0137.jpg,studded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/studded/studded_0161.jpg,studded,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/swirly/swirly_0065.jpg,swirly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/swirly/swirly_0072.jpg,swirly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/swirly/swirly_0067.jpg,swirly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/swirly/swirly_0103.jpg,swirly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/swirly/swirly_0123.jpg,swirly,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/veined/veined_0075.jpg,veined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/veined/veined_0086.jpg,veined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/veined/veined_0078.jpg,veined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/veined/veined_0115.jpg,veined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/veined/veined_0134.jpg,veined,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/waffled/waffled_0063.jpg,waffled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/waffled/waffled_0085.jpg,waffled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/waffled/waffled_0070.jpg,waffled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/waffled/waffled_0124.jpg,waffled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/waffled/waffled_0144.jpg,waffled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/woven/woven_0012.jpg,woven,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/woven/woven_0019.jpg,woven,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/woven/woven_0014.jpg,woven,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/woven/woven_0051.jpg,woven,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/woven/woven_0071.jpg,woven,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/wrinkled/wrinkled_0025.jpg,wrinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/wrinkled/wrinkled_0033.jpg,wrinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/wrinkled/wrinkled_0027.jpg,wrinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/wrinkled/wrinkled_0064.jpg,wrinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/wrinkled/wrinkled_0087.jpg,wrinkled,dtd,far_texture,val
+/content/nonflower_src/dtd/dtd/images/zigzagged/zigzagged_0021.jpg,zigzagged,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/zigzagged/zigzagged_0030.jpg,zigzagged,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/zigzagged/zigzagged_0023.jpg,zigzagged,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/zigzagged/zigzagged_0059.jpg,zigzagged,dtd,far_texture,test
+/content/nonflower_src/dtd/dtd/images/zigzagged/zigzagged_0078.jpg,zigzagged,dtd,far_texture,test
+/content/nonflower_src/oxford-iiit-pet/images/Abyssinian_160.jpg,Abyssinian,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Abyssinian_21.jpg,Abyssinian,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Abyssinian_115.jpg,Abyssinian,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/american_bulldog_199.jpg,American Bulldog,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/american_bulldog_114.jpg,American Bulldog,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/american_bulldog_128.jpg,American Bulldog,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/american_pit_bull_terrier_187.jpg,American Pit Bull Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/american_pit_bull_terrier_114.jpg,American Pit Bull Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/american_pit_bull_terrier_128.jpg,American Pit Bull Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/basset_hound_187.jpg,Basset Hound,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/basset_hound_114.jpg,Basset Hound,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/basset_hound_128.jpg,Basset Hound,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/beagle_190.jpg,Beagle,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/beagle_115.jpg,Beagle,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/beagle_12.jpg,Beagle,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Bengal_188.jpg,Bengal,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Bengal_114.jpg,Bengal,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Bengal_128.jpg,Bengal,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Birman_187.jpg,Birman,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Birman_114.jpg,Birman,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Birman_128.jpg,Birman,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Bombay_118.jpg,Bombay,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Bombay_140.jpg,Bombay,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Bombay_72.jpg,Bombay,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/boxer_175.jpg,Boxer,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/boxer_114.jpg,Boxer,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/boxer_200.jpg,Boxer,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/British_Shorthair_204.jpg,British Shorthair,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/British_Shorthair_114.jpg,British Shorthair,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/British_Shorthair_129.jpg,British Shorthair,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/chihuahua_187.jpg,Chihuahua,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/chihuahua_114.jpg,Chihuahua,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/chihuahua_128.jpg,Chihuahua,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Egyptian_Mau_87.jpg,Egyptian Mau,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Egyptian_Mau_91.jpg,Egyptian Mau,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Egyptian_Mau_221.jpg,Egyptian Mau,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/english_cocker_spaniel_49.jpg,English Cocker Spaniel,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/english_cocker_spaniel_25.jpg,English Cocker Spaniel,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/english_cocker_spaniel_115.jpg,English Cocker Spaniel,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/english_setter_187.jpg,English Setter,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/english_setter_114.jpg,English Setter,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/english_setter_128.jpg,English Setter,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/german_shorthaired_187.jpg,German Shorthaired,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/german_shorthaired_114.jpg,German Shorthaired,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/german_shorthaired_128.jpg,German Shorthaired,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/great_pyrenees_187.jpg,Great Pyrenees,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/great_pyrenees_114.jpg,Great Pyrenees,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/great_pyrenees_128.jpg,Great Pyrenees,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/havanese_187.jpg,Havanese,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/havanese_114.jpg,Havanese,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/havanese_128.jpg,Havanese,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/japanese_chin_187.jpg,Japanese Chin,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/japanese_chin_114.jpg,Japanese Chin,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/japanese_chin_128.jpg,Japanese Chin,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/keeshond_175.jpg,Keeshond,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/keeshond_114.jpg,Keeshond,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/keeshond_200.jpg,Keeshond,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/leonberger_187.jpg,Leonberger,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/leonberger_114.jpg,Leonberger,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/leonberger_128.jpg,Leonberger,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Maine_Coon_211.jpg,Maine Coon,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Maine_Coon_116.jpg,Maine Coon,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Maine_Coon_136.jpg,Maine Coon,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/miniature_pinscher_187.jpg,Miniature Pinscher,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/miniature_pinscher_114.jpg,Miniature Pinscher,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/miniature_pinscher_128.jpg,Miniature Pinscher,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/newfoundland_49.jpg,Newfoundland,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/newfoundland_25.jpg,Newfoundland,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/newfoundland_115.jpg,Newfoundland,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Persian_202.jpg,Persian,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Persian_117.jpg,Persian,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Persian_134.jpg,Persian,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/pomeranian_187.jpg,Pomeranian,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/pomeranian_114.jpg,Pomeranian,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/pomeranian_128.jpg,Pomeranian,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/pug_189.jpg,Pug,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/pug_115.jpg,Pug,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/pug_129.jpg,Pug,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Ragdoll_198.jpg,Ragdoll,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Ragdoll_117.jpg,Ragdoll,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Ragdoll_133.jpg,Ragdoll,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Russian_Blue_198.jpg,Russian Blue,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Russian_Blue_115.jpg,Russian Blue,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/Russian_Blue_131.jpg,Russian Blue,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/saint_bernard_187.jpg,Saint Bernard,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/saint_bernard_114.jpg,Saint Bernard,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/saint_bernard_128.jpg,Saint Bernard,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/samoyed_187.jpg,Samoyed,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/samoyed_114.jpg,Samoyed,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/samoyed_128.jpg,Samoyed,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/scottish_terrier_175.jpg,Scottish Terrier,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/scottish_terrier_114.jpg,Scottish Terrier,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/scottish_terrier_20.jpg,Scottish Terrier,pets,far_animal,test
+/content/nonflower_src/oxford-iiit-pet/images/shiba_inu_195.jpg,Shiba Inu,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/shiba_inu_114.jpg,Shiba Inu,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/shiba_inu_128.jpg,Shiba Inu,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Siamese_18.jpg,Siamese,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Siamese_117.jpg,Siamese,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Siamese_231.jpg,Siamese,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Sphynx_202.jpg,Sphynx,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Sphynx_121.jpg,Sphynx,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/Sphynx_137.jpg,Sphynx,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/staffordshire_bull_terrier_96.jpg,Staffordshire Bull Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/staffordshire_bull_terrier_77.jpg,Staffordshire Bull Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/staffordshire_bull_terrier_117.jpg,Staffordshire Bull Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/wheaten_terrier_187.jpg,Wheaten Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/wheaten_terrier_114.jpg,Wheaten Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/wheaten_terrier_128.jpg,Wheaten Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/yorkshire_terrier_187.jpg,Yorkshire Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/yorkshire_terrier_114.jpg,Yorkshire Terrier,pets,far_animal,val
+/content/nonflower_src/oxford-iiit-pet/images/yorkshire_terrier_128.jpg,Yorkshire Terrier,pets,far_animal,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bai_troi_01.jpg,bai_troi,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bai_troi_02.jpg,bai_troi,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bai_troi_03.jpg,bai_troi,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bai_troi_04.jpg,bai_troi,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bai_troi_05.jpg,bai_troi,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bui_cay_01.jpg,bui_cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bui_cay_02.jpg,bui_cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bui_cay_03.jpg,bui_cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bui_cay_04.jpg,bui_cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/bui_cay_05.jpg,bui_cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/cay_01.jpg,cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/cay_02.jpg,cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/cay_03.jpg,cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/cay_04.jpg,cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/cay_05.jpg,cay,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/co_01.jpg,co,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/co_02.jpg,co,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/co_03.jpg,co,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/co_04.jpg,co,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/co_05.jpg,co,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/da_01.jpg,da,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/da_02.jpg,da,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/da_03.jpg,da,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/da_04.jpg,da,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/da_05.jpg,da,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/dat_01.jpg,dat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/dat_02.jpg,dat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/dat_03.jpg,dat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/dat_04.jpg,dat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/dat_05.jpg,dat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/do_vat_01.jpg,do_vat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/do_vat_02.jpg,do_vat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/do_vat_03.jpg,do_vat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/do_vat_04.jpg,do_vat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/do_vat_05.jpg,do_vat,own,far_own,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/la_01.jpg,la,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/la_02.jpg,la,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/la_03.jpg,la,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/la_04.jpg,la,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/la_05.jpg,la,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/may_01.jpg,may,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/may_02.jpg,may,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/may_03.jpg,may,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/may_04.jpg,may,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/non_flower/may_05.jpg,may,own,far_own,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0000.jpg,ban_01.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0002.jpg,ban_01.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0005.jpg,ban_01.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0007.jpg,ban_01.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0008.jpg,ban_01.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0009.jpg,ban_01.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0011.jpg,ban_02.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0014.jpg,ban_02.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0017.jpg,ban_02.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0018.jpg,ban_02.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0020.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0021.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0024.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0025.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0026.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0027.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0028.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0029.jpg,ban_03.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0030.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0031.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0032.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0033.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0034.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0035.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0036.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0037.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0038.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0039.jpg,ban_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0040.jpg,ban_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0042.jpg,ban_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0046.jpg,ban_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0047.jpg,ban_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0049.jpg,ban_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0050.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0051.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0052.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0053.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0054.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0055.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0057.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0058.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0059.jpg,ban_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0060.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0061.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0062.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0063.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0064.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0065.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0066.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0067.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0068.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0069.jpg,ban_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0077.jpg,ban_08.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0079.jpg,ban_08.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0080.jpg,ban_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0082.jpg,ban_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0084.jpg,ban_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0086.jpg,ban_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0087.jpg,ban_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0090.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0091.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0092.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0093.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0094.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0095.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0096.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0097.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0098.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0099.jpg,ban_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0100.jpg,chau_hoa_01.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0116.jpg,chau_hoa_02.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0144.jpg,chau_hoa_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0147.jpg,chau_hoa_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0150.jpg,chau_hoa_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0153.jpg,chau_hoa_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0158.jpg,chau_hoa_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0159.jpg,chau_hoa_06.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0164.jpg,chau_hoa_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0166.jpg,chau_hoa_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0168.jpg,chau_hoa_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0169.jpg,chau_hoa_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0176.jpg,chau_hoa_08.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0179.jpg,chau_hoa_08.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0182.jpg,chau_hoa_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0183.jpg,chau_hoa_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0189.jpg,chau_hoa_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0190.jpg,chau_hoa_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0191.jpg,chau_hoa_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0193.jpg,chau_hoa_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0196.jpg,chau_hoa_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0197.jpg,chau_hoa_10.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0204.jpg,vuon_01.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0207.jpg,vuon_01.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0208.jpg,vuon_01.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0210.jpg,vuon_02.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0212.jpg,vuon_02.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0216.jpg,vuon_02.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0220.jpg,vuon_03.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0221.jpg,vuon_03.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0225.jpg,vuon_03.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0226.jpg,vuon_03.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0230.jpg,vuon_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0232.jpg,vuon_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0234.jpg,vuon_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0239.jpg,vuon_04.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0241.jpg,vuon_05.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0262.jpg,vuon_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0269.jpg,vuon_07.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0274.jpg,vuon_08.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0276.jpg,vuon_08.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0278.jpg,vuon_08.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0279.jpg,vuon_08.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0280.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0281.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0282.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0283.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0284.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0285.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0286.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0287.jpg,vuon_09.jpg,scenes,bg_crop,val
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0293.jpg,vuon_10.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0294.jpg,vuon_10.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0295.jpg,vuon_10.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0297.jpg,vuon_10.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0298.jpg,vuon_10.jpg,scenes,bg_crop,test
+/content/drive/MyDrive/flower-multilabel-project/data/ood/bg_crops/bg_0299.jpg,vuon_10.jpg,scenes,bg_crop,test

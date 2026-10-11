@@ -1,0 +1,72 @@
+{
+  "hoa_hong": {
+    "anh_sang": "Cần ánh sáng mặt trời trực tiếp ít nhất 6 giờ/ngày, nên trồng ở nơi thoáng đãng.",
+    "nuoc_tuoi": "Tưới 1 lần/ngày vào buổi sáng sớm, tránh tưới lên lá vào buổi tối để hạn chế nấm bệnh.",
+    "dat_trong": "Đất tơi xốp, giàu dinh dưỡng, thoát nước tốt, pH 6.0-6.5.",
+    "nhiet_do": "Thích hợp 18-25°C, chịu nóng kém khi trên 35°C.",
+    "luu_y": "Cắt tỉa cành già, hoa tàn thường xuyên để kích thích ra hoa mới; dễ bị rệp và nấm đốm đen."
+  },
+  "hoa_huong_duong": {
+    "anh_sang": "Ưa nắng gắt, cần tối thiểu 6-8 giờ ánh sáng trực tiếp mỗi ngày.",
+    "nuoc_tuoi": "Tưới đều đặn 2-3 lần/tuần, tăng tần suất khi cây ra hoa và thời tiết khô nóng.",
+    "dat_trong": "Đất thịt pha cát, thoát nước tốt, giàu mùn.",
+    "nhiet_do": "Phát triển tốt ở 20-30°C, chịu nóng tốt hơn chịu lạnh.",
+    "luu_y": "Cần cắm cọc hỗ trợ khi cây cao để tránh gãy đổ do gió; tránh trồng nơi ngập úng."
+  },
+  "hoa_cuc": {
+    "anh_sang": "Ưa sáng, cần 5-6 giờ nắng trực tiếp/ngày, tránh nắng gắt buổi trưa nếu khí hậu quá nóng.",
+    "nuoc_tuoi": "Giữ ẩm đều đặn, tưới 3-4 lần/tuần, tránh để đất khô hoàn toàn hoặc úng nước.",
+    "dat_trong": "Đất giàu hữu cơ, tơi xốp, thoát nước tốt, pH 6.0-6.8.",
+    "nhiet_do": "Thích hợp 18-24°C, ra hoa đẹp nhất khi biên độ ngày đêm không quá lớn.",
+    "luu_y": "Ngắt ngọn khi cây còn nhỏ để cây phân nhánh nhiều, cho nhiều hoa hơn; dễ bị rệp và nấm phấn trắng."
+  },
+  "hoa_tulip": {
+    "anh_sang": "Cần ánh sáng đầy đủ nhưng dịu, tránh nắng gắt trực tiếp giữa trưa.",
+    "nuoc_tuoi": "Tưới vừa phải khi đất mặt se khô, tránh tưới quá nhiều gây thối củ.",
+    "dat_trong": "Đất thoát nước cực tốt, tơi xốp, giàu dinh dưỡng, pH 6.0-7.0.",
+    "nhiet_do": "Ưa mát, thích hợp 10-20°C; cần giai đoạn lạnh (dưới 10°C) để kích thích ra hoa.",
+    "luu_y": "Củ tulip cần được bảo quản lạnh trước khi trồng; không trồng lại cùng một chỗ đất liên tục nhiều năm."
+  },
+  "hoa_bo_cong_anh": {
+    "anh_sang": "Chịu được cả nắng gắt lẫn bóng râm nhẹ, phát triển tốt nhất khi có nắng trực tiếp.",
+    "nuoc_tuoi": "Khá chịu hạn, chỉ cần tưới khi đất khô, không cần tưới thường xuyên.",
+    "dat_trong": "Không kén đất, phát triển được cả ở đất nghèo dinh dưỡng, thoát nước trung bình.",
+    "nhiet_do": "Chịu được biên độ nhiệt rộng, thích hợp 15-28°C.",
+    "luu_y": "Sinh trưởng và lan rất nhanh, cần kiểm soát nếu không muốn cây mọc lan ra khu vực khác."
+  },
+  "hoa_sen": {
+    "anh_sang": "Cần nắng trực tiếp toàn phần, tối thiểu 6 giờ/ngày để ra hoa.",
+    "nuoc_tuoi": "Trồng trong nước, mực nước duy trì 15-30cm trên bề mặt bùn, không để cạn nước.",
+    "dat_trong": "Bùn ao giàu dinh dưỡng hoặc đất sét nặng, ngập nước hoàn toàn.",
+    "nhiet_do": "Ưa nóng ẩm, thích hợp 23-30°C, ngừng phát triển khi dưới 15°C.",
+    "luu_y": "Không trồng chung chậu với cây cạn; cần bón phân định kỳ vào bùn để hoa to và bền."
+  },
+  "hoa_lan": {
+    "anh_sang": "Ưa sáng nhưng tránh nắng trực tiếp gay gắt, thích hợp ánh sáng tán xạ 50-70%.",
+    "nuoc_tuoi": "Tưới khi giá thể se khô, khoảng 2-3 lần/tuần, tránh đọng nước ở gốc và nách lá.",
+    "dat_trong": "Giá thể thoáng khí: vỏ thông, than củi, dớn, xơ dừa — không dùng đất thịt thông thường.",
+    "nhiet_do": "Thích hợp 20-28°C ban ngày, giảm nhẹ về đêm; nhạy cảm với thay đổi nhiệt độ đột ngột.",
+    "luu_y": "Cần độ ẩm không khí cao (50-80%), thông thoáng tốt; dễ bị thối rễ nếu tưới quá nhiều."
+  },
+  "hoa_mai": {
+    "anh_sang": "Cần nắng trực tiếp nhiều, tối thiểu 6 giờ/ngày, thiếu nắng cây sẽ ít hoa.",
+    "nuoc_tuoi": "Tưới đều 1 lần/ngày mùa khô, giảm tưới mùa mưa; kiểm soát nước để canh hoa nở đúng Tết.",
+    "dat_trong": "Đất pha cát hoặc đất thịt nhẹ, thoát nước tốt, không chịu được ngập úng.",
+    "nhiet_do": "Thích hợp khí hậu nhiệt đới 25-30°C, chịu lạnh kém.",
+    "luu_y": "Cần lặt lá đúng thời điểm (khoảng rằm tháng Chạp) để hoa nở đúng dịp Tết; bón phân định kỳ sau Tết để cây phục hồi."
+  },
+  "hoa_dao": {
+    "anh_sang": "Cần nhiều ánh sáng trực tiếp, tối thiểu 6 giờ/ngày.",
+    "nuoc_tuoi": "Tưới vừa phải 2-3 lần/tuần, tránh úng nước làm thối rễ.",
+    "dat_trong": "Đất thịt pha cát, giàu dinh dưỡng, thoát nước tốt, hơi chua nhẹ (pH 5.5-6.5).",
+    "nhiet_do": "Ưa khí hậu lạnh mát để phân hóa mầm hoa, thích hợp 15-25°C.",
+    "luu_y": "Cần tuốt lá trước Tết khoảng 1 tháng để kích thích ra hoa đồng loạt; dễ bị sâu đục thân nếu không kiểm tra định kỳ."
+  },
+  "hoa_oai_huong": {
+    "anh_sang": "Ưa nắng toàn phần, cần tối thiểu 6-8 giờ ánh sáng trực tiếp/ngày.",
+    "nuoc_tuoi": "Chịu hạn tốt, chỉ tưới khi đất khô hẳn, tránh tưới quá nhiều gây úng rễ.",
+    "dat_trong": "Đất thoát nước cực tốt, hơi kiềm (pH 6.5-7.5), không ưa đất ẩm ướt lâu ngày.",
+    "nhiet_do": "Ưa khí hậu mát khô, thích hợp 15-25°C, không chịu được nóng ẩm kéo dài.",
+    "luu_y": "Cần cắt tỉa sau mỗi đợt hoa tàn để cây không bị gỗ hóa; thông thoáng gió tốt để tránh nấm bệnh."
+  }
+}

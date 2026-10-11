@@ -1,0 +1,79 @@
+{
+  "models": [
+    {
+      "id": "mobilenetv2",
+      "name": "MobileNetV2",
+      "val_accuracy": 0.9495555555555556,
+      "val_auc": 0.9779694080352783,
+      "precision": 0.9206447601318359,
+      "recall": 0.8199889659881592,
+      "is_selected": false
+    },
+    {
+      "id": "mobilenetv3large",
+      "name": "MobileNetV3Large",
+      "val_accuracy": 0.9534444444444444,
+      "val_auc": 0.9822262525558472,
+      "precision": 0.9350000023841858,
+      "recall": 0.8260629773139954,
+      "is_selected": false
+    },
+    {
+      "id": "efficientnetb0",
+      "name": "EfficientNetB0",
+      "val_accuracy": 0.9564444444444444,
+      "val_auc": 0.9870618581771851,
+      "precision": 0.9465072154998779,
+      "recall": 0.8304803967475891,
+      "is_selected": false
+    },
+    {
+      "id": "resnet50v2",
+      "name": "ResNet50V2",
+      "val_accuracy": 0.954,
+      "val_auc": 0.9796233773231506,
+      "precision": 0.9440559148788452,
+      "recall": 0.8199889659881592,
+      "is_selected": false
+    },
+    {
+      "id": "densenet121",
+      "name": "DenseNet121",
+      "val_accuracy": 0.9593333333333334,
+      "val_auc": 0.9889257550239563,
+      "precision": 0.9468150734901428,
+      "recall": 0.8453893065452576,
+      "is_selected": true,
+      "precision_optimized": 0.9081,
+      "recall_optimized": 0.8945,
+      "f1_macro_optimized": 0.9008,
+      "f1_macro_default_threshold": 0.8921,
+      "hamming_accuracy_optimized": 0.9602,
+      "subset_accuracy_optimized": 0.7067,
+      "per_class_thresholds": {
+        "hoa_hong": 0.45,
+        "hoa_huong_duong": 0.4,
+        "hoa_cuc": 0.35,
+        "hoa_tulip": 0.25,
+        "hoa_bo_cong_anh": 0.2,
+        "hoa_sen": 0.45,
+        "hoa_lan": 0.45,
+        "hoa_mai": 0.3,
+        "hoa_dao": 0.25,
+        "hoa_oai_huong": 0.35
+      },
+      "per_class_f1_optimized": {
+        "hoa_hong": 0.8012,
+        "hoa_huong_duong": 0.8514,
+        "hoa_cuc": 0.8421,
+        "hoa_tulip": 0.847,
+        "hoa_bo_cong_anh": 0.8615,
+        "hoa_sen": 0.962,
+        "hoa_lan": 0.9728,
+        "hoa_mai": 0.9421,
+        "hoa_dao": 0.9565,
+        "hoa_oai_huong": 0.9713
+      }
+    }
+  ]
+}

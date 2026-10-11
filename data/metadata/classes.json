@@ -1,0 +1,52 @@
+[
+  {
+    "index": 0,
+    "id": "hoa_hong",
+    "name": "Hoa Hồng"
+  },
+  {
+    "index": 1,
+    "id": "hoa_huong_duong",
+    "name": "Hoa Hướng Dương"
+  },
+  {
+    "index": 2,
+    "id": "hoa_cuc",
+    "name": "Hoa Cúc"
+  },
+  {
+    "index": 3,
+    "id": "hoa_tulip",
+    "name": "Hoa Tulip"
+  },
+  {
+    "index": 4,
+    "id": "hoa_bo_cong_anh",
+    "name": "Bồ Công Anh"
+  },
+  {
+    "index": 5,
+    "id": "hoa_sen",
+    "name": "Hoa Sen"
+  },
+  {
+    "index": 6,
+    "id": "hoa_lan",
+    "name": "Hoa Lan"
+  },
+  {
+    "index": 7,
+    "id": "hoa_mai",
+    "name": "Hoa Mai"
+  },
+  {
+    "index": 8,
+    "id": "hoa_dao",
+    "name": "Hoa Đào"
+  },
+  {
+    "index": 9,
+    "id": "hoa_oai_huong",
+    "name": "Oải Hương"
+  }
+]

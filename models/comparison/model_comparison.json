@@ -1,0 +1,69 @@
+{
+  "models": [
+    {
+      "id": "mobilenetv2",
+      "name": "MobileNetV2",
+      "val_accuracy": 0.9002659574468085,
+      "val_auc": 0.995203214956569,
+      "precision": 0.88304203289716,
+      "recall": 0.9337257747986805,
+      "f1_macro": 0.9050741278541745,
+      "checkpoint": "models/checkpoints_singlelabel/mobilenetv2/stage2_best.keras",
+      "evaluated_on": "test",
+      "task": "single-label softmax",
+      "is_selected": false
+    },
+    {
+      "id": "mobilenetv3large",
+      "name": "MobileNetV3Large",
+      "val_accuracy": 0.913563829787234,
+      "val_auc": 0.9962188676673474,
+      "precision": 0.9132628171665799,
+      "recall": 0.9420925809435399,
+      "f1_macro": 0.9258446162386912,
+      "checkpoint": "models/checkpoints_singlelabel/mobilenetv3large/stage1_best.keras",
+      "evaluated_on": "test",
+      "task": "single-label softmax",
+      "is_selected": false
+    },
+    {
+      "id": "efficientnetb0",
+      "name": "EfficientNetB0",
+      "val_accuracy": 0.9228723404255319,
+      "val_auc": 0.9973872284206167,
+      "precision": 0.8891401076543893,
+      "recall": 0.9510516221589311,
+      "f1_macro": 0.915781618370968,
+      "checkpoint": "models/checkpoints_singlelabel/efficientnetb0/stage1_best.keras",
+      "evaluated_on": "test",
+      "task": "single-label softmax",
+      "is_selected": false
+    },
+    {
+      "id": "resnet50v2",
+      "name": "ResNet50V2",
+      "val_accuracy": 0.913563829787234,
+      "val_auc": 0.9951083106087995,
+      "precision": 0.9202416132932877,
+      "recall": 0.9420665099433355,
+      "f1_macro": 0.9304416630424747,
+      "checkpoint": "models/checkpoints_singlelabel/resnet50v2/stage2_best.keras",
+      "evaluated_on": "test",
+      "task": "single-label softmax",
+      "is_selected": false
+    },
+    {
+      "id": "densenet121",
+      "name": "DenseNet121",
+      "val_accuracy": 0.9375,
+      "val_auc": 0.9973050228769749,
+      "precision": 0.9393526874399788,
+      "recall": 0.9562394156439972,
+      "f1_macro": 0.9472896960486225,
+      "checkpoint": "models/checkpoints_singlelabel/densenet121/stage2_best.keras",
+      "evaluated_on": "test",
+      "task": "single-label softmax",
+      "is_selected": true
+    }
+  ]
+}

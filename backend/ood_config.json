@@ -1,0 +1,27 @@
+{
+  "method": "head11",
+  "model_path": "models/final/flower_singlelabel_ood11.keras",
+  "num_classes": 10,
+  "reject_class_index": 10,
+  "confidence_gate": 0.7,
+  "trained_use_bg": false,
+  "trained_rho": 0.3,
+  "excl_rej_cls": [
+    "11"
+  ],
+  "id_drop_count": 3,
+  "test_metrics": {
+    "1hoa_đúng": 0.961436170212766,
+    "1hoa_thừa": 0.16489361702127658,
+    "near_flower": 0.2838983050847458,
+    "far_texture": 0.0875,
+    "far_animal": 0.28205128205128205,
+    "far_own": 0.13333333333333333,
+    "bg_crop": 0.11428571428571428,
+    "far_TB": 0.15429258241758242,
+    "2hoa_đủ": 0.7066666666666667,
+    "2hoa_thừa": 0.24,
+    "3hoa_đủ": 0.37333333333333335,
+    "3hoa_thừa": 0.24
+  }
+}

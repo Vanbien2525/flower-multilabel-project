@@ -1,0 +1,69 @@
+# ==========================================
+# Virtual Environments & Python Cache
+# ==========================================
+venv/
+.venv/
+*/venv/
+*/.venv/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================================
+# Model Weights & Large Binary Files
+# ==========================================
+*.keras
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.tflite
+models/checkpoints/
+models/checkpoints_singlelabel/
+models/final/
+models/ood/*.npy
+models/ood/*.npz
+models/ood/*.pkl
+
+# ==========================================
+# Image Datasets (Large Data)
+# ==========================================
+data/raw/
+data/composite/images/
+data/augmented/
+data/splits/train/
+data/splits/val/
+data/splits/test/
+data/ood/non_flower/
+data/ood/scenes/
+data/ood/bg_crops/
+
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.gif
+
+# Ngoại lệ: Cho phép index ảnh báo cáo / tài liệu kiến trúc nếu cần
+!reports/**/*.png
+!reports/**/*.jpg
+!docs/**/*.png
+!docs/**/*.jpg
+
+# ==========================================
+# Temporary Uploads & System
+# ==========================================
+backend/static/uploads/
+*.log
+.git/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

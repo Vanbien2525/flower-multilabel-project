@@ -1,0 +1,172 @@
+{
+  "mobilenetv2": {
+    "name": "MobileNetV2",
+    "checkpoint": "stage2_best",
+    "val_loss": 0.283021730089419,
+    "test_accuracy": 0.9002659574468085,
+    "test_precision_macro": 0.88304203289716,
+    "test_recall_macro": 0.9337257747986805,
+    "test_f1_macro": 0.9050741278541745,
+    "test_auc_ovr_macro": 0.995203214956569,
+    "per_class_f1": {
+      "hoa_hong": 0.9012875536480687,
+      "hoa_huong_duong": 0.9216589861751152,
+      "hoa_cuc": 0.8879310344827587,
+      "hoa_tulip": 0.8736462093862816,
+      "hoa_bo_cong_anh": 0.9130434782608695,
+      "hoa_sen": 0.9090909090909091,
+      "hoa_lan": 1.0,
+      "hoa_mai": 0.8888888888888888,
+      "hoa_dao": 0.9259259259259259,
+      "hoa_oai_huong": 0.8292682926829268
+    },
+    "per_class_recall": {
+      "hoa_hong": 0.8898305084745762,
+      "hoa_huong_duong": 0.9090909090909091,
+      "hoa_cuc": 0.8956521739130435,
+      "hoa_tulip": 0.8175675675675675,
+      "hoa_bo_cong_anh": 0.930379746835443,
+      "hoa_sen": 1.0,
+      "hoa_lan": 1.0,
+      "hoa_mai": 1.0,
+      "hoa_dao": 1.0,
+      "hoa_oai_huong": 0.8947368421052632
+    }
+  },
+  "mobilenetv3large": {
+    "name": "MobileNetV3Large",
+    "checkpoint": "stage1_best",
+    "val_loss": 0.2668259279617099,
+    "test_accuracy": 0.913563829787234,
+    "test_precision_macro": 0.9132628171665799,
+    "test_recall_macro": 0.9420925809435399,
+    "test_f1_macro": 0.9258446162386912,
+    "test_auc_ovr_macro": 0.9962188676673474,
+    "per_class_f1": {
+      "hoa_hong": 0.8760330578512396,
+      "hoa_huong_duong": 0.9140271493212669,
+      "hoa_cuc": 0.9162995594713657,
+      "hoa_tulip": 0.8873239436619719,
+      "hoa_bo_cong_anh": 0.9490445859872612,
+      "hoa_sen": 0.9523809523809523,
+      "hoa_lan": 1.0,
+      "hoa_mai": 0.9387755102040817,
+      "hoa_dao": 0.8771929824561403,
+      "hoa_oai_huong": 0.9473684210526315
+    },
+    "per_class_recall": {
+      "hoa_hong": 0.8983050847457628,
+      "hoa_huong_duong": 0.9181818181818182,
+      "hoa_cuc": 0.9043478260869565,
+      "hoa_tulip": 0.8513513513513513,
+      "hoa_bo_cong_anh": 0.9430379746835443,
+      "hoa_sen": 1.0,
+      "hoa_lan": 1.0,
+      "hoa_mai": 0.9583333333333334,
+      "hoa_dao": 1.0,
+      "hoa_oai_huong": 0.9473684210526315
+    }
+  },
+  "efficientnetb0": {
+    "name": "EfficientNetB0",
+    "checkpoint": "stage1_best",
+    "val_loss": 0.2762464179975732,
+    "test_accuracy": 0.9228723404255319,
+    "test_precision_macro": 0.8891401076543893,
+    "test_recall_macro": 0.9510516221589311,
+    "test_f1_macro": 0.915781618370968,
+    "test_auc_ovr_macro": 0.9973872284206167,
+    "per_class_f1": {
+      "hoa_hong": 0.9152542372881356,
+      "hoa_huong_duong": 0.9251101321585903,
+      "hoa_cuc": 0.9099099099099099,
+      "hoa_tulip": 0.9252669039145908,
+      "hoa_bo_cong_anh": 0.9487179487179487,
+      "hoa_sen": 0.851063829787234,
+      "hoa_lan": 0.967741935483871,
+      "hoa_mai": 0.9056603773584906,
+      "hoa_dao": 0.9090909090909091,
+      "hoa_oai_huong": 0.9
+    },
+    "per_class_recall": {
+      "hoa_hong": 0.9152542372881356,
+      "hoa_huong_duong": 0.9545454545454546,
+      "hoa_cuc": 0.8782608695652174,
+      "hoa_tulip": 0.8783783783783784,
+      "hoa_bo_cong_anh": 0.9367088607594937,
+      "hoa_sen": 1.0,
+      "hoa_lan": 1.0,
+      "hoa_mai": 1.0,
+      "hoa_dao": 1.0,
+      "hoa_oai_huong": 0.9473684210526315
+    }
+  },
+  "resnet50v2": {
+    "name": "ResNet50V2",
+    "checkpoint": "stage2_best",
+    "val_loss": 0.3084506194595511,
+    "test_accuracy": 0.913563829787234,
+    "test_precision_macro": 0.9202416132932877,
+    "test_recall_macro": 0.9420665099433355,
+    "test_f1_macro": 0.9304416630424747,
+    "test_auc_ovr_macro": 0.9951083106087995,
+    "per_class_f1": {
+      "hoa_hong": 0.905982905982906,
+      "hoa_huong_duong": 0.918918918918919,
+      "hoa_cuc": 0.8908296943231441,
+      "hoa_tulip": 0.8843537414965986,
+      "hoa_bo_cong_anh": 0.9358974358974359,
+      "hoa_sen": 1.0,
+      "hoa_lan": 1.0,
+      "hoa_mai": 0.9019607843137255,
+      "hoa_dao": 0.9433962264150944,
+      "hoa_oai_huong": 0.9230769230769231
+    },
+    "per_class_recall": {
+      "hoa_hong": 0.8983050847457628,
+      "hoa_huong_duong": 0.9272727272727272,
+      "hoa_cuc": 0.8869565217391304,
+      "hoa_tulip": 0.8783783783783784,
+      "hoa_bo_cong_anh": 0.9240506329113924,
+      "hoa_sen": 1.0,
+      "hoa_lan": 1.0,
+      "hoa_mai": 0.9583333333333334,
+      "hoa_dao": 1.0,
+      "hoa_oai_huong": 0.9473684210526315
+    }
+  },
+  "densenet121": {
+    "name": "DenseNet121",
+    "checkpoint": "stage2_best",
+    "val_loss": 0.2595015852264205,
+    "test_accuracy": 0.9375,
+    "test_precision_macro": 0.9393526874399788,
+    "test_recall_macro": 0.9562394156439972,
+    "test_f1_macro": 0.9472896960486225,
+    "test_auc_ovr_macro": 0.9973050228769749,
+    "per_class_f1": {
+      "hoa_hong": 0.9045643153526971,
+      "hoa_huong_duong": 0.9464285714285714,
+      "hoa_cuc": 0.9422222222222222,
+      "hoa_tulip": 0.9072164948453608,
+      "hoa_bo_cong_anh": 0.967948717948718,
+      "hoa_sen": 0.975609756097561,
+      "hoa_lan": 1.0,
+      "hoa_mai": 0.92,
+      "hoa_dao": 0.9615384615384616,
+      "hoa_oai_huong": 0.9473684210526315
+    },
+    "per_class_recall": {
+      "hoa_hong": 0.923728813559322,
+      "hoa_huong_duong": 0.9636363636363636,
+      "hoa_cuc": 0.9217391304347826,
+      "hoa_tulip": 0.8918918918918919,
+      "hoa_bo_cong_anh": 0.9556962025316456,
+      "hoa_sen": 1.0,
+      "hoa_lan": 1.0,
+      "hoa_mai": 0.9583333333333334,
+      "hoa_dao": 1.0,
+      "hoa_oai_huong": 0.9473684210526315
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿Lớp,ID,Precision,Recall,F1-score,Support (số ảnh có nhãn này)
+Hoa Hồng,hoa_hong,0.8649,0.7232,0.7877,177
+Hoa Hướng Dương,hoa_huong_duong,0.8962,0.7885,0.8389,208
+Hoa Cúc,hoa_cuc,0.9318,0.7593,0.8367,162
+Hoa Tulip,hoa_tulip,0.9441,0.7418,0.8308,182
+Bồ Công Anh,hoa_bo_cong_anh,0.9434,0.7812,0.8547,192
+Hoa Sen,hoa_sen,0.9742,0.9438,0.9587,160
+Hoa Lan,hoa_lan,0.9833,0.9516,0.9672,186
+Hoa Mai,hoa_mai,0.9626,0.9045,0.9326,199
+Hoa Đào,hoa_dao,0.9814,0.9133,0.9461,173
+Oải Hương,hoa_oai_huong,0.9763,0.9593,0.9677,172

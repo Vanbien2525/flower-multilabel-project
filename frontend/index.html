@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VBxIris · Nhận diện hoa &amp; hướng dẫn chăm sóc</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#analyze" class="logo" aria-label="VBxIris">VBx<span>Iris</span></a>
+    <nav class="nav" aria-label="Chính">
+      <a href="#analyze" class="active"><i data-lucide="scan-search"></i>Phân tích</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero" id="analyze">
+    <p class="eyebrow"><i data-lucide="sparkles"></i> Nhận diện hoa bằng AI</p>
+    <!-- <h1>Chụp một bông hoa,<br><span class="grad-text">biết ngay cách chăm nó.</span></h1> -->
+    <h1 class="grad-text">Chụp một bông hoa, biết ngay cách chăm nó.</h1>
+    <p class="lead">Tải ảnh chứa 1–3 loại hoa. Hệ thống nhận diện từng loài, cho biết độ tin cậy và gợi ý ánh sáng, nước tưới, đất trồng.</p>
+  </section>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+
+    <!-- Cột trái -->
+    <aside class="lg:col-span-5 glass panel sticky-col">
+      <label for="image-input" class="dropzone" id="dropzone">
+        <input type="file" id="image-input" accept="image/*" hidden>
+        <div class="dz-empty">
+          <span class="dz-icon"><i data-lucide="image-plus"></i></span>
+          <strong>Nhấn để chọn ảnh</strong>
+          <small>hoặc kéo thả vào đây · JPEG, PNG · tối đa 8 MB</small>
+        </div>
+        <img id="preview" alt="Ảnh xem trước" hidden>
+      </label>
+
+      <button id="predict-btn" type="button">Nhận diện</button>
+      <div id="message-section" role="status" aria-live="polite" hidden></div>
+    </aside>
+
+    <!-- Cột phải -->
+    <div class="lg:col-span-7 stack">
+
+      <section id="result-section" class="glass panel" hidden>
+        <h2 class="sec-title"><i data-lucide="flower-2"></i>Kết quả nhận diện</h2>
+        <div id="result-list"></div>
+      </section>
+
+      <section id="model-predictions-section" class="glass panel" hidden>
+        <h3 class="sec-title"><i data-lucide="layers"></i>Tỉ lệ đa mô hình</h3>
+
+        <div id="model-predictions-table" class="table-wrap"></div>
+      </section>
+
+      <section id="benchmark" class="glass panel">
+        <h3 class="sec-title"><i data-lucide="bar-chart-3"></i>Hiệu suất Benchmark 5 mô hình</h3>
+        <div id="comparison-table" class="table-wrap"></div>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer" id="history">VBxIris · Chạy cục bộ · Flask + TensorFlow</footer>
+
+<script>
+  lucide.createIcons();
+  // Kéo thả ảnh (không đụng tới logic của script.js)
+  (function () {
+    var dz = document.getElementById('dropzone'), input = document.getElementById('image-input');
+    ['dragenter', 'dragover'].forEach(function (e) { dz.addEventListener(e, function (ev) { ev.preventDefault(); dz.classList.add('drag'); }); });
+    ['dragleave', 'drop'].forEach(function (e) { dz.addEventListener(e, function (ev) { ev.preventDefault(); dz.classList.remove('drag'); }); });
+    dz.addEventListener('drop', function (ev) {
+      if (ev.dataTransfer.files.length) { input.files = ev.dataTransfer.files; input.dispatchEvent(new Event('change', { bubbles: true })); }
+    });
+  })();
+</script>
+<script src="script.js"></script>
+</body>
+</html>
