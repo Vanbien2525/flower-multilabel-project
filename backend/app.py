@@ -1,11 +1,16 @@
 import os
 import uuid
+import threading
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from werkzeug.exceptions import RequestEntityTooLarge
 
 from predict import validate_image, detect_flowers, get_model_predictions
-from model_loader import load_singlelabel_model, get_model_comparison
+from model_loader import (
+    load_singlelabel_model, get_model_comparison,
+    get_comparison_model, COMPARISON_MODEL_IDS,
+)
+
 
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(BACKEND_DIR)
@@ -119,11 +124,25 @@ def serve_frontend_static(filename):
     return jsonify({"error": "Không tìm thấy tài nguyên."}), 404
 
 
+def _async_warmup():
+    """Nạp trước 5 mô hình benchmark vào RAM trong luồng ngầm để người dùng không bị chờ khi nhận diện."""
+    print("[app] Đang nạp trước các mô hình benchmark vào RAM...")
+    for mid in COMPARISON_MODEL_IDS:
+        try:
+            get_comparison_model(mid)
+        except Exception as err:
+            print(f"[app] Cảnh báo nạp trước {mid}: {err}")
+    print("[app] Đã nạp sẵn sàng toàn bộ các mô hình benchmark!")
+
+
+
 # Nạp trước model khi worker khởi động (hỗ trợ Gunicorn trên Cloud Run và chạy trực tiếp)
 try:
     load_singlelabel_model()
+    threading.Thread(target=_async_warmup, daemon=True).start()
 except Exception as e:
     print(f"[app] Cảnh báo khởi động: {e}")
+
 
 
 if __name__ == "__main__":
