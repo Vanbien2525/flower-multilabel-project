@@ -1,5 +1,6 @@
 import os
 import json
+import threading
 import tensorflow as tf
 
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -14,6 +15,7 @@ CARE_GUIDE_PATH = os.path.join(BACKEND_DIR, "care_guide.json")
 COMPARISON_PATH = os.path.join(BACKEND_DIR, "model_comparison.json")
 COMPARISON_MODEL_IDS = ["mobilenetv2", "mobilenetv3large", "efficientnetb0", "resnet50v2", "densenet121"]
 
+_model_lock = threading.Lock()
 _singlelabel_model = None
 _ood_config = None
 _classes = None
@@ -39,23 +41,25 @@ def load_singlelabel_model():
     Ưu tiên nạp mô hình 11 lớp (kèm reject class cho OOD) nếu đã huấn luyện xong (Tuần 7).
     Là model chính cho luồng nhận diện (FR-04), nạp 1 lần khi khởi động server (NFR-05)."""
     global _singlelabel_model
-    if _singlelabel_model is None:
-        cfg = get_ood_config()
-        target_path = None
-        if cfg and cfg.get("model_path"):
-            p = os.path.join(PROJECT_ROOT, *cfg["model_path"].split("/"))
-            if os.path.exists(p):
-                target_path = p
-        if target_path is None and os.path.exists(OOD_MODEL_PATH):
-            target_path = OOD_MODEL_PATH
-        if target_path is None:
-            target_path = SINGLELABEL_MODEL_PATH
+    with _model_lock:
+        if _singlelabel_model is None:
+            cfg = get_ood_config()
+            target_path = None
+            if cfg and cfg.get("model_path"):
+                p = os.path.join(PROJECT_ROOT, *cfg["model_path"].split("/"))
+                if os.path.exists(p):
+                    target_path = p
+            if target_path is None and os.path.exists(OOD_MODEL_PATH):
+                target_path = OOD_MODEL_PATH
+            if target_path is None:
+                target_path = SINGLELABEL_MODEL_PATH
 
-        if not os.path.exists(target_path):
-            raise FileNotFoundError(f"Không tìm thấy model tại: {target_path}")
-        _singlelabel_model = tf.keras.models.load_model(target_path)
-        print(f"[model_loader] Đã nạp model nhận diện từ: {target_path}")
+            if not os.path.exists(target_path):
+                raise FileNotFoundError(f"Không tìm thấy model tại: {target_path}")
+            _singlelabel_model = tf.keras.models.load_model(target_path)
+            print(f"[model_loader] Đã nạp model nhận diện từ: {target_path}")
     return _singlelabel_model
+
 
 
 def get_classes():
@@ -121,14 +125,15 @@ def get_comparison_model(model_id):
     Cache lại sau lần nạp đầu."""
     if model_id not in COMPARISON_MODEL_IDS:
         raise ValueError(f"model_id không hợp lệ: {model_id}")
-    if model_id not in _comparison_models:
-        meta = next((m for m in get_model_comparison()["models"] if m["id"] == model_id), None)
-        if meta is None or not meta.get("checkpoint"):
-            raise FileNotFoundError(f"model_comparison.json thiếu trường 'checkpoint' cho {model_id}")
-        path = os.path.join(PROJECT_ROOT, *meta["checkpoint"].split("/"))
-        if not os.path.exists(path):
-            raise FileNotFoundError(f"Không tìm thấy checkpoint cho {model_id} tại: {path}")
-        print(f"[model_loader] Đang nạp model so sánh: {model_id} ...")
-        _comparison_models[model_id] = tf.keras.models.load_model(path)
-        print(f"[model_loader] Đã nạp xong: {model_id}")
-    return _comparison_models[model_id]
+    with _model_lock:
+        if model_id not in _comparison_models:
+            meta = next((m for m in get_model_comparison()["models"] if m["id"] == model_id), None)
+            if meta is None or not meta.get("checkpoint"):
+                raise FileNotFoundError(f"model_comparison.json thiếu trường 'checkpoint' cho {model_id}")
+            path = os.path.join(PROJECT_ROOT, *meta["checkpoint"].split("/"))
+            if not os.path.exists(path):
+                raise FileNotFoundError(f"Không tìm thấy checkpoint cho {model_id} tại: {path}")
+            print(f"[model_loader] Đang nạp model so sánh: {model_id} ...")
+            _comparison_models[model_id] = tf.keras.models.load_model(path)
+            print(f"[model_loader] Đã nạp xong: {model_id}")
+        return _comparison_models[model_id]

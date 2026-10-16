@@ -125,7 +125,14 @@ def serve_frontend_static(filename):
 
 
 def _async_warmup():
-    """Nạp trước 5 mô hình benchmark vào RAM trong luồng ngầm để người dùng không bị chờ khi nhận diện."""
+    """Nạp trước model chính và 5 mô hình benchmark vào RAM trong luồng ngầm (tránh nghẽn cổng 5000 lúc khởi động)."""
+    try:
+        print("[app] Đang nạp trước model nhận diện chính...")
+        load_singlelabel_model()
+        print("[app] Đã nạp xong model nhận diện chính!")
+    except Exception as err:
+        print(f"[app] Cảnh báo nạp model chính: {err}")
+
     print("[app] Đang nạp trước các mô hình benchmark vào RAM...")
     for mid in COMPARISON_MODEL_IDS:
         try:
@@ -135,13 +142,12 @@ def _async_warmup():
     print("[app] Đã nạp sẵn sàng toàn bộ các mô hình benchmark!")
 
 
-
-# Nạp trước model khi worker khởi động (hỗ trợ Gunicorn trên Cloud Run và chạy trực tiếp)
+# Kích hoạt luồng nạp ngầm ngay lập tức (giúp server mở cổng 5000 trong 1 giây, triệt tiêu lỗi 502)
 try:
-    load_singlelabel_model()
     threading.Thread(target=_async_warmup, daemon=True).start()
 except Exception as e:
-    print(f"[app] Cảnh báo khởi động: {e}")
+    print(f"[app] Cảnh báo khởi động luồng warmup: {e}")
+
 
 
 
