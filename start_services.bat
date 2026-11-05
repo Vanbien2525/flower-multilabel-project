@@ -16,13 +16,15 @@ echo ============================================================
 echo.
 
 echo 1. Khoi dong Cloudflare Tunnel...
-sc config Cloudflared start= auto
-net start Cloudflared
+sc config Cloudflared start= auto > nul 2>&1
+net start Cloudflared > nul 2>&1
 
 echo.
-echo 2. Khoi dong AI Backend...
-sc config AI_Backend start= auto
-nssm restart AI_Backend
+echo 2. Khoi dong AI Backend Python...
+sc config AI_Backend start= auto > nul 2>&1
+nssm stop AI_Backend > nul 2>&1
+timeout /t 2 /nobreak > nul
+nssm start AI_Backend
 
 echo.
 echo ============================================================

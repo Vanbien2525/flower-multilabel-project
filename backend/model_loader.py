@@ -1,7 +1,19 @@
 import os
 import json
 import threading
-import tensorflow as tf
+
+_tf = None
+
+def get_tf():
+    """Nap TensorFlow mot cach an toan (lazy load), khong chan tien trinh khoi dong Flask."""
+    global _tf
+    if _tf is None:
+        os.environ.setdefault("TF_ENABLE_ONEDNN_OPTS", "0")
+        os.environ.setdefault("CUDA_VISIBLE_DEVICES", "-1")
+        import tensorflow as tf
+        _tf = tf
+    return _tf
+
 
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(BACKEND_DIR)
@@ -56,7 +68,7 @@ def load_singlelabel_model():
 
             if not os.path.exists(target_path):
                 raise FileNotFoundError(f"Không tìm thấy model tại: {target_path}")
-            _singlelabel_model = tf.keras.models.load_model(target_path)
+            _singlelabel_model = get_tf().keras.models.load_model(target_path)
             print(f"[model_loader] Da nap model nhan dien tu: {target_path}")
     return _singlelabel_model
 
@@ -134,6 +146,6 @@ def get_comparison_model(model_id):
             if not os.path.exists(path):
                 raise FileNotFoundError(f"Không tìm thấy checkpoint cho {model_id} tại: {path}")
             print(f"[model_loader] Dang nap model so sanh: {model_id} ...")
-            _comparison_models[model_id] = tf.keras.models.load_model(path)
+            _comparison_models[model_id] = get_tf().keras.models.load_model(path)
             print(f"[model_loader] Da nap xong: {model_id}")
         return _comparison_models[model_id]
