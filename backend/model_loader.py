@@ -32,7 +32,7 @@ def get_ood_config():
             with open(OOD_CONFIG_PATH, "r", encoding="utf-8") as f:
                 _ood_config = json.load(f)
         except Exception as e:
-            print(f"[model_loader] Cảnh báo đọc ood_config.json: {e}")
+            print(f"[model_loader] Canh bao doc ood_config.json: {e}")
     return _ood_config
 
 
@@ -57,7 +57,7 @@ def load_singlelabel_model():
             if not os.path.exists(target_path):
                 raise FileNotFoundError(f"Không tìm thấy model tại: {target_path}")
             _singlelabel_model = tf.keras.models.load_model(target_path)
-            print(f"[model_loader] Đã nạp model nhận diện từ: {target_path}")
+            print(f"[model_loader] Da nap model nhan dien tu: {target_path}")
     return _singlelabel_model
 
 
@@ -133,7 +133,7 @@ def get_comparison_model(model_id):
             path = os.path.join(PROJECT_ROOT, *meta["checkpoint"].split("/"))
             if not os.path.exists(path):
                 raise FileNotFoundError(f"Không tìm thấy checkpoint cho {model_id} tại: {path}")
-            print(f"[model_loader] Đang nạp model so sánh: {model_id} ...")
+            print(f"[model_loader] Dang nap model so sanh: {model_id} ...")
             _comparison_models[model_id] = tf.keras.models.load_model(path)
-            print(f"[model_loader] Đã nạp xong: {model_id}")
+            print(f"[model_loader] Da nap xong: {model_id}")
         return _comparison_models[model_id]

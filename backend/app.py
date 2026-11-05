@@ -1,6 +1,21 @@
+import sys
 import os
 import uuid
 import threading
+import time
+
+# Bao ve stdout/stderr tranh loi UnicodeEncodeError tren Windows Service
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+if sys.stderr and hasattr(sys.stderr, "reconfigure"):
+    try:
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from werkzeug.exceptions import RequestEntityTooLarge
@@ -125,34 +140,35 @@ def serve_frontend_static(filename):
 
 
 def _async_warmup():
-    """Nạp trước model chính và 5 mô hình benchmark vào RAM trong luồng ngầm (tránh nghẽn cổng 5000 lúc khởi động)."""
+    """Nap truoc model nhan dien va cac model benchmark trong luong ngam."""
     try:
-        print("[app] Đang nạp trước model nhận diện chính...")
+        print("[app] Dang nap model nhan dien chinh...")
         load_singlelabel_model()
-        print("[app] Đã nạp xong model nhận diện chính!")
+        print("[app] Da nap xong model nhan dien chinh!")
     except Exception as err:
-        print(f"[app] Cảnh báo nạp model chính: {err}")
+        print(f"[app] Canh bao nap model chinh: {err}")
 
-    print("[app] Đang nạp trước các mô hình benchmark vào RAM...")
+    # Nap lan luot cac model benchmark, moi model cach nhau 1s de khong nghen disk I/O
     for mid in COMPARISON_MODEL_IDS:
         try:
+            time.sleep(1.0)
             get_comparison_model(mid)
         except Exception as err:
-            print(f"[app] Cảnh báo nạp trước {mid}: {err}")
-    print("[app] Đã nạp sẵn sàng toàn bộ các mô hình benchmark!")
+            print(f"[app] Canh bao nap benchmark {mid}: {err}")
+    print("[app] Da nap san sang toan bo cac model benchmark!")
 
 
-# Kích hoạt luồng nạp ngầm ngay lập tức (giúp server mở cổng 5000 trong 1 giây, triệt tiêu lỗi 502)
+# Kich hoat luong nap ngam ngay lap tuc
 try:
     threading.Thread(target=_async_warmup, daemon=True).start()
 except Exception as e:
-    print(f"[app] Cảnh báo khởi động luồng warmup: {e}")
+    print(f"[app] Canh bao khoi dong luong warmup: {e}")
 
 
 
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    print(f"Model đã sẵn sàng. Khởi động server tại http://localhost:{port}")
-    print(f"👉 Mở trình duyệt và truy cập: http://localhost:{port}")
+    print(f"Model ready. Starting server at http://localhost:{port}")
+    print(f"Access web at http://localhost:{port}")
     app.run(host="0.0.0.0", port=port, debug=False)
